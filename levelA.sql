@@ -1,3 +1,5 @@
+use AdventureWorks2019;
+
 --1. list of all customers
 SELECT * FROM Customers;
 
