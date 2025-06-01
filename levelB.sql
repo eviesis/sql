@@ -58,7 +58,5 @@ JOIN Sales.SalesOrderDetail sod ON pp.ProductID = sod.ProductID
 WHERE pp.DiscontinuedDate IS NULL;
 GO
 
-drop view MyProducts
-
 --check
 select * from MyProducts
